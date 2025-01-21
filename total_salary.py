@@ -28,7 +28,7 @@ def  total_salary(path):
     except UnicodeDecodeError:
         return f"Помилка: Файл має неправильне кодування або пошкоджений."
     except Exception as error:
-        return f"Сталася помилка: {error}"
+        return f"Сталася помилка"
     
 
     sum_salary = math.fsum(all_wages)
