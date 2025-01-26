@@ -13,7 +13,8 @@ def  total_salary(path):
 
         Returns:
             tuple: two numbers: the total amount of salaries and the average salary.
-        """
+    """
+    
     all_wages = []
     try:
         # open the file for reading
